@@ -1,0 +1,34 @@
+<div class="s-wide s-wide--full-height">
+	<div class="o-container o-container--vertical-top o-container--small
+							o-container--medium o-container--large o-container--xlarge
+							o-container--black-text">
+		<div class="o-grid">
+			<div class="o-grid__cell o-grid__cell--width-40 o-grid__cell--offset-30">
+				<h2>Login to your account</h2>
+				<form>
+					<div class="o-form-element">
+						<label class="c-label" for="email">Email</label>
+						<input type="text" id="email" class="c-field" name="email"
+							   aria-describedby="basic-addon1" required>
+					</div>
+					<div class="o-form-element">
+						<label for="password">Password</label>
+						<input type="password" id="password" class="c-label" name="password"
+							   aria-describedby="basic-addon1" required>
+					</div>
+					<button class="c-button c-button--top-padded c-button--top-padded--success fa fa-sign-in"
+							id="login">
+						Login
+					</button>
+				</form>
+				<div class="o-grid--margin-top-15 o-grid__cell--width-100" id="warning-area" hidden>
+					<div class="c-alert c-alert--error" role="alert">
+						<span class="fa fa-exclamation-circle" aria-hidden="true"></span>
+						<span class="sr-only">Error:</span>
+						Provided credentials do not match
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

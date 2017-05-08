@@ -1,0 +1,19 @@
+.c-footer {
+	position: absolute;
+	background-color: $light-black;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	
+	&__anchor {
+		color: black;
+		
+		&:hover {
+			color: $juicy-orange;
+		}
+	}
+	&__li {
+		text-align: center;
+		list-style-type: none;
+	}
+}

@@ -1,0 +1,20 @@
+.o-container {
+	
+	&--vertical-center {
+		position: relative;
+		top: +27vh;
+	}
+	&--vertical-top {
+		position: relative;
+		top: +10vh;
+	}
+	&--full-width {
+		width: 100vw;
+	}
+	&--dark-white-text {
+		color: $dark-white;
+	}
+	&--black-text {
+		color: black;
+	}
+}

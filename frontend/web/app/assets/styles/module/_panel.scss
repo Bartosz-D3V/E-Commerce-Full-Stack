@@ -1,0 +1,13 @@
+.o-panel-container {
+	img {
+		display: inline;
+		width: 150px;
+		height: 300px;
+	}
+	&--lowered {
+		margin-top: 60px;
+	}
+	&--to-right{
+		text-align: center;
+	}
+}

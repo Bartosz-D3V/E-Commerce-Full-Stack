@@ -1,0 +1,26 @@
+.s-wide {
+	font-family: $fontGlobal;
+	text-align: center;
+	width: 100%;
+	text-justify: inter-word;
+	padding-bottom: 150px;
+	
+	&--full-height {
+		height: 100vh;
+	}
+	&--half-vertical{
+		width: 50%;
+	}
+	&--front {
+		@extend .s-wide--full-height;
+		background-image: $backgroundURL;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	&--orange {
+		background: $orange;
+	}
+	&--bright-orange {
+		background: $bright-orange;
+	}
+}

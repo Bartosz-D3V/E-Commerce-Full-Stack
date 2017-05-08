@@ -1,0 +1,29 @@
+{
+	"const_settings": {
+		"distLocation": "./dist",
+		"indexLocation": "web/app/index.html",
+		"imagesLocation": "web/app/assets/images",
+		"scssManifestLocation": "web/app/assets/styles/manifest.scss",
+		"allScssFiles": "web/app/assets/styles/**/*.s+(a|c)ss",
+		"allJsFiles": "web/app/{js,templates}/**/*.{js,hbs}",
+		"allLintableJsFiles": "web/app/js/**/*.js",
+		"allImgFiles": "web/app/assets/images/**/*.{jpg,jpeg,png,gif,svg,ico}",
+		"jsInitializerLocation": "web/app/js/Initializer.js",
+		"jsTestDir": "web/test",
+		"concatCSSName": "bundle.css",
+		"concatJSName": "bundle.js",
+		"eslint_config": "./config/eslint/.eslintrc",
+		"sass_lint": "./config/sass-lint/.sass-lint.yml",
+		"karma_config": "./config/karma/Karma.conf.js"
+	},
+	"libraries": {
+		"normalize": "node_modules/normalize.css/normalize.css",
+		"popups": "node_modules/popups/css/popupS.css",
+		"blaze": "node_modules/blaze/dist/blaze.min.css",
+		"sweetalert": "node_modules/sweetalert/dist/sweetalert.css",
+		"awesomplete": "node_modules/awesomplete/awesomplete.css",
+		"font_awesome": "node_modules/font-awesome/css/font-awesome.css",
+		"font_awesome_font": "node_modules/font-awesome/fonts/fontawesome-webfont.woff2",
+		"shiv": "node_modules/html5shiv/dist/html5shiv.js"
+	}
+}

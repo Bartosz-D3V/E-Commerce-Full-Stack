@@ -1,0 +1,5 @@
+.img {
+	&--fade-in {
+		@include fade-in(3s);
+	}
+}

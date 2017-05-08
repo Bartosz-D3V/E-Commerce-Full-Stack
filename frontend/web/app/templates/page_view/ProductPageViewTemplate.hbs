@@ -1,0 +1,35 @@
+<div class="s-wide s-wide--full-height">
+	<div class="o-container o-container--vertical-top o-container--small
+							o-container--medium o-container--large o-container--xlarge
+							o-container--black-text">
+		<div class="o-grid">
+			<div class="o-grid__cell o-grid__cell--width-50">
+				<img src="http://covers.openlibrary.org/b/olid/{{olid}}-L.jpg" class="img img--fade-in" alt="{{title}}">
+			</div>
+			<div class="o-grid__cell o-grid__cell--width-50">
+				<div class="c-text no-extras">
+					<h4>Title: {{title}}</h4>
+					<h4>Author: {{author}}</h4>
+					<h4>Cover: {{coverType}}</h4>
+					<h4>Pages: {{numberOfPages}}</h4>
+					<h4>Publisher: {{publisher}}</h4>
+					<h4>Genre: {{genre}}</h4>
+					<h4>Date published: {{publicityYear}}</h4>
+					<h4>Price: {{price}}</h4>
+					<h4>On stock: {{quantity}}</h4>
+					<blockquote class="c-blockquote">
+						<div class="c-blockquote__body">
+							{{description}}
+						</div>
+						<footer class="c-blockquote__footer">
+							- {{author}}
+						</footer>
+					</blockquote>
+					<button id="{{id}}" type="button" class="c-button c-button--brand nw">
+						Buy
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

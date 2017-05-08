@@ -1,0 +1,16 @@
+.o-grid {
+	
+	&__cell--height-70 {
+		min-height: 450px;
+	}
+	&__cell--place-around {
+		margin-left: 6%;
+		margin-right: 6%;
+	}
+	&--margin-top-5 {
+		margin-top: 5%;
+	}
+	&--margin-top-15 {
+		margin-top: 15%;
+	}
+}

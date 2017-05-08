@@ -1,0 +1,17 @@
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background: $backgroundURL center;
+	text-align: center;
+	color: white;
+}
+
+.t-header {
+	font-weight: 500;
+	
+	&__text--white {
+		color: white;
+	}
+}

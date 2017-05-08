@@ -1,0 +1,50 @@
+h1 {
+	margin: $box-margin-none;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+h2 {
+	margin: $box-margin-none;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	white-space: nowrap;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 1em;
+	margin-top: 0;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+a {
+	color: $light-grey;
+	
+	&:hover {
+		color: white;
+	}
+}
+
+.c-text {
+	&.no-extras {
+		line-height: 15px;
+	}
+}
+
+.line {
+	width: 20%;
+	height: 4px;
+	border-radius: 6px;
+	
+	&--orange {
+		@include hr-color($juicy-orange);
+	}
+}

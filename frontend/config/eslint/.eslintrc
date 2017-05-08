@@ -1,0 +1,17 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": false
+		}
+	},
+	"extends": "google",
+	"rules": {
+		"semi": 2,
+		"linebreak-style": [
+			2,
+			"windows"
+		]
+	}
+}

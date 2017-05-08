@@ -1,0 +1,17 @@
+CREATE TABLE `book` (
+  `id`              BIGINT(20)   NOT NULL,
+  `author`          VARCHAR(255)   DEFAULT NULL,
+  `category`        VARCHAR(255)   DEFAULT NULL,
+  `description`     VARCHAR(255)   DEFAULT NULL,
+  `genre`           VARCHAR(255)   DEFAULT NULL,
+  `price`           DECIMAL(19, 2) DEFAULT NULL,
+  `publicity_year`  INT(11)        DEFAULT NULL,
+  `publisher`       VARCHAR(255)   DEFAULT NULL,
+  `quantity`        INT(11)      NOT NULL,
+  `title`           VARCHAR(255) NOT NULL,
+  `cover_type`      VARCHAR(255)   DEFAULT NULL,
+  `number_of_pages` INT(11)        DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+  ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;

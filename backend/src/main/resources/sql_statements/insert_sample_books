@@ -1,0 +1,25 @@
+INSERT INTO book
+(id, author, category, description, genre, price, publicity_year, publisher, title, cover_type, number_of_pages, quantity,
+olid)
+VALUES
+	(1, "Leo Tolstoy", "Books", "Bassus magister diligenter prensionems lumen est.", "PN", 8.99, 1899,
+	    "Pinguin Publishing", "War And Peace", "Soft", 1225, 20, "OL7355253M"),
+	(2, "Leo Tolstoy", "Books", "Hilotaes ridetis!", "PN", 4.99, 1877, "Pinguin Publishing",
+	    "Anna Karenina", "Hard", 864, 20, "OL11652682M"),
+	(3, "Adam Mickiewicz", "Books", "Sunt musaes promissio regius, clemens elogiumes.", "EP", 7.65, 1834,
+	    "Pinguin Publishing", "Pan Tadeusz", "Hard", 334, 20, "OL22352974M"),
+	(4, "J. R. R. Tolkien", "Books", "Pol, a bene abactor.", "Fantasy", 11.21, 1937, "George Allen & Unwin",
+	    "The Hobbit",
+	    "Hard", 304, 20, "OL24209616M"),
+	(5, "Andrzej Sapkowski", "Books", "Castors unda!", "Fantasy", 6.00, 1834, "SuperNOWA", "Blood Of Elves", "Hard",
+	    320, 20, "OL25788501M"),
+	(7, "Aleksandr Solzhenitsyn", "Books", "Prarere absolute ducunt ad fidelis adelphis.", "Historical", 10.00, 1973,
+	    "Éditions du Seuil", "The Gulag Archipelago",
+	    "Hard",
+	    1728, 20, "OL11349387M"),
+	(8, "The \"Gang of Four\"", "Books", "Idoleums sunt elogiums de noster orgia.", "IT", 27.12, 1994, "Addison-Wesley",
+	    "Design Patterns", "Soft", 395, 20, "OL22173620M"),
+	(9, "Fyodor Dostoevsky", "Books", "Est noster repressor, cesaris.", "PN", 5.99, 1879,
+	    "Pinguin Publishing",
+	    "The Brothers Karamazov", "Soft",
+	    496, 20, "OL9130238M");

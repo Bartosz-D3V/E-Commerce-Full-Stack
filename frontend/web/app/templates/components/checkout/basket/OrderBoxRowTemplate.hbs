@@ -1,0 +1,11 @@
+<td class="c-table__cell">{{title}}</td>
+<td class="c-table__cell">
+	<form>
+		<input type="number" id="quantity-order-input" min="1" max="10"
+			   value="{{quantity}}" data-target="{{_id}}" title="quantity">
+	</form>
+</td>
+<td class="c-table__cell">£{{price}}</td>
+<td class="c-table__cell">
+	<i class="fa fa-times" id="delete-order-button" data-target="{{_id}}"></i>
+</td>

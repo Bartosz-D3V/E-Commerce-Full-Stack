@@ -1,0 +1,25 @@
+.c-nav {
+	
+	&.no-extras {
+		color: inherit;
+		background-color: $light-black;
+	}
+	&__item, &.no-extras {
+		&:not(:disabled) &:not(.custom-background){
+			&:hover {
+				background-color: transparent;
+			}
+		}
+	}
+	&__item--no-bullet {
+		list-style-type: none;
+	}
+	&__item--link {
+		display: block;
+		padding: $box-margin-none;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		font-size: 1.25em;
+	}
+}

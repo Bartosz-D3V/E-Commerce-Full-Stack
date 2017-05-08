@@ -1,0 +1,20 @@
+.c-button {
+	a {
+		color: white;
+		&:hover {
+			color: white;
+		}
+	}
+	i {
+		font-size: 1em;
+	}
+	&.no-extras {
+		margin-top: +4%;
+	}
+
+	&--to-right {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+}

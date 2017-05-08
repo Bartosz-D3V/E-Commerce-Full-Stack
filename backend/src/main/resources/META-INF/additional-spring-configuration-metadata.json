@@ -1,0 +1,14 @@
+{
+	"properties": [
+		{
+			"name": "google.maps.api.key",
+			"type": "java.lang.String",
+			"description": "Placeholder for GoogleMaps API key"
+		},
+		{
+			"name": "paypal.api.key",
+			"type": "java.lang.String",
+			"description": "Placeholder for PayPal API key."
+		}
+	]
+}

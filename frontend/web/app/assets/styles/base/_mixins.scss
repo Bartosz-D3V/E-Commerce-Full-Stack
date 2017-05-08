@@ -1,0 +1,47 @@
+@mixin hr-color($color) {
+	border-color: $color;
+	background-color: $color;
+	color: $color;
+}
+
+@mixin fade-in($time) {
+	margin-top: 25px;
+	font-size: 21px;
+	text-align: center;
+	animation: fadein $time;
+	-moz-animation: fadein $time; /* Firefox */
+	-webkit-animation: fadein $time; /* Safari and Chrome */
+	-o-animation: fadein $time; /* Opera */
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	@-moz-keyframes fadein { /* Firefox */
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	@-webkit-keyframes fadein { /* Safari and Chrome */
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	@-o-keyframes fadein { /* Opera */
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"paths": [
+		"web/app/js/components",
+		"web/app/js/components/collection",
+		"web/app/js/components/collection/domain",
+		"web/app/js/components/collection/domain/transaction",
+		"web/app/js/components/collection/domain/products",
+		"web/app/js/components/model",
+		"web/app/js/components/model/domain",
+		"web/app/js/components/model/domain/products",
+		"web/app/js/components/model/domain/transaction/",
+		"web/app/js/components/model/users",
+		"web/app/js/components/object/",
+		"web/app/js/components/object/view_helpers",
+		"web/app/js/components/object/key_vendor",
+		"web/app/js/components/router",
+		"web/app/js/components/vendor",
+		"web/app/js/components/view",
+		"web/app/js/components/view/collection_view",
+		"web/app/js/components/view/components_view",
+		"web/app/js/components/view/item_view",
+		"web/app/js/components/view/item_view/static",
+		"web/app/js/components/controller",
+		"web/app/templates",
+		"web/app/templates/components",
+		"web/app/templates/components/checkout",
+		"web/app/templates/components/checkout/basket",
+		"web/app/templates/components/product",
+		"web/app/templates/page_view",
+		"web/app/templates/page_view/static"
+	]
+}
