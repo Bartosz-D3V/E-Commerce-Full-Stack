@@ -1,6 +1,4 @@
 ﻿# SPA & RESTful E-commerce
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Bartosz-D3V/E-commerce-full-stack-website/blob/master/LICENSE) [![license](https://img.shields.io/badge/New%20contributors-Welcome!-brightgreen.svg)]() [![built with gulp](https://img.shields.io/badge/gulp-built_project-eb4a4b.svg?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAYAAAAOCAMAAAA7QZ0XAAAABlBMVEUAAAD%2F%2F%2F%2Bl2Z%2FdAAAAAXRSTlMAQObYZgAAABdJREFUeAFjAAFGRjSSEQzwUgwQkjAFAAtaAD0Ls2nMAAAAAElFTkSuQmCC)](http://gulpjs.com/)
-
 
 Table of contents
 - Introduction
